@@ -3,13 +3,13 @@ package insecure
 import (
 	"bytes"
 	"context"
-	"github.com/libp2p/go-libp2p-core/peer"
-	"github.com/libp2p/go-libp2p-core/sec"
+	"github.com/adam-hanna/go-libp2p-core/peer"
+	"github.com/adam-hanna/go-libp2p-core/sec"
 	"io"
 	"net"
 	"testing"
 
-	ci "github.com/libp2p/go-libp2p-core/crypto"
+	ci "github.com/adam-hanna/go-libp2p-core/crypto"
 )
 
 // Run a set of sessions through the session setup and verification.

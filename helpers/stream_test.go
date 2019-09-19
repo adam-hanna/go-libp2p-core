@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p-core/helpers"
-	network "github.com/libp2p/go-libp2p-core/network"
+	"github.com/adam-hanna/go-libp2p-core/helpers"
+	network "github.com/adam-hanna/go-libp2p-core/network"
 )
 
 var errCloseFailed = errors.New("close failed")

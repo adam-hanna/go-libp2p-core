@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/libp2p/go-libp2p-core/network"
+	"github.com/adam-hanna/go-libp2p-core/network"
 )
 
 // EOFTimeout is the maximum amount of time to wait to successfully observe an

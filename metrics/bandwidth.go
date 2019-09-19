@@ -3,8 +3,8 @@ package metrics
 
 import (
 	"github.com/libp2p/go-flow-metrics"
-	"github.com/libp2p/go-libp2p-core/peer"
-	"github.com/libp2p/go-libp2p-core/protocol"
+	"github.com/adam-hanna/go-libp2p-core/peer"
+	"github.com/adam-hanna/go-libp2p-core/protocol"
 )
 
 // BandwidthCounter tracks incoming and outgoing data transferred by the local peer.

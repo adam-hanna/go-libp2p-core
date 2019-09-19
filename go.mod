@@ -1,4 +1,4 @@
-module github.com/libp2p/go-libp2p-core
+module github.com/adam-hanna/go-libp2p-core
 
 require (
 	github.com/btcsuite/btcd v0.0.0-20190523000118-16327141da8c
