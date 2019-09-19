@@ -11,9 +11,9 @@ import (
 	"testing"
 
 	btcec "github.com/btcsuite/btcd/btcec"
-	. "github.com/libp2p/go-libp2p-core/crypto"
-	pb "github.com/libp2p/go-libp2p-core/crypto/pb"
-	"github.com/libp2p/go-libp2p-core/test"
+	. "github.com/adam-hanna/go-libp2p-core/crypto"
+	pb "github.com/adam-hanna/go-libp2p-core/crypto/pb"
+	"github.com/adam-hanna/go-libp2p-core/test"
 	sha256 "github.com/minio/sha256-simd"
 	"golang.org/x/crypto/ed25519"
 )
