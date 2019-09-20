@@ -174,12 +174,12 @@ func (m *PrivateKey) GetData() []byte {
 }
 
 func init() {
-	proto.RegisterEnum("crypto.pb.KeyType.FOO", KeyType_name, KeyType_value)
-	proto.RegisterType((*PublicKey)(nil), "crypto.pb.PublicKey.FOO")
-	proto.RegisterType((*PrivateKey)(nil), "crypto.pb.PrivateKey.FOO")
+	proto.RegisterEnum("crypto.pb.KeyTyp", KeyType_name, KeyType_value)
+	proto.RegisterType((*PublicKey)(nil), "crypto.pb.PublicKe")
+	proto.RegisterType((*PrivateKey)(nil), "crypto.pb.PrivateKe")
 }
 
-func init() { proto.RegisterFile("crypto.proto.FOO", fileDescriptor_527278fb02d03321) }
+func init() { proto.RegisterFile("crypto.prot", fileDescriptor_527278fb02d03321) }
 
 var fileDescriptor_527278fb02d03321 = []byte{
 	// 203 bytes of a gzipped FileDescriptorProto
