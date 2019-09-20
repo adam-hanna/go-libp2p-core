@@ -179,7 +179,7 @@ func init() {
 	proto.RegisterType((*PrivateKey)(nil), "crypto.pb.PrivateKey.FOO")
 }
 
-func init() { proto.RegisterFile("crypto.proto.FOO", fileDescriptor_527278fb02d03321) }
+func init() { proto.RegisterFile("crypto.proto", fileDescriptor_527278fb02d03321) }
 
 var fileDescriptor_527278fb02d03321 = []byte{
 	// 203 bytes of a gzipped FileDescriptorProto
